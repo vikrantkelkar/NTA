@@ -8,7 +8,6 @@ class students extends students_model {
 			foreach($query->result() as $row) {
 				$data[] = $row;
 			}
-			
 		}	
 		return $data;
 	}
